@@ -1,0 +1,10 @@
+{
+  "exclude": ["**/test/**", "scripts", "build", "tempData"],
+  "compilerOptions": {
+    "lib": ["DOM"],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "outDir": "build", // Types should go into this directory.
+    "declaration": true // Generate d.ts files,
+  }
+}
