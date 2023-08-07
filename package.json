@@ -12,7 +12,8 @@
     "ws": "^8.13.0"
   },
   "scripts": {
-    "startdev": " ts-node-dev App.ts",
+    "startdev": " ts-node-dev Server.ts",
+    "startClient": "ts-node-dev client1.ts",
     "build": " npm install && tsc --build",
     "startProd": "node ./build/index.js"
   }
